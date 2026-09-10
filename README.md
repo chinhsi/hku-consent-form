@@ -2,7 +2,7 @@
 
 A [Claude Code](https://claude.ai/code) skill that drafts informed consent forms in the format used by the University of Hong Kong Human Research Ethics Committee (HREC), from a research proposal.
 
-Give it a proposal (and, if available, the HREC application form and interview protocol). It extracts the fields, picks the audiences that the study needs, fills in the standard HKU wording, and writes one `.docx` per audience and language.
+Give it a proposal (and, if available, the interview protocol or questionnaire). It extracts the fields, picks the audiences that the study needs, fills in the standard HKU wording, and writes one `.docx` per audience and language. It also drafts the content of the HREC Application Form for Ethics Approval (Parts A–E) as Markdown, with personal details left blank, ready to paste into the online application system.
 
 ## Audiences and formats
 
@@ -22,6 +22,7 @@ English and Chinese. The Chinese script (Traditional for Hong Kong, Simplified f
 - `SKILL.md` — the workflow Claude follows
 - `reference/fields.md` — what to extract from the proposal, with defaults
 - `reference/language-en.md`, `reference/language-zh.md` — sentence banks taken from HKU Faculty of Education sample forms and approved applications
+- `reference/application-form.md` — question-by-question guidance for the HREC application form, with defaults and the conditions that flip each Yes/No
 - `reference/checklist.md` — consistency checks against the HREC application form before submission
 
 Personal details of the principal investigator are not in the repo. Put them in `local/pi-defaults.md` (ignored by git); the skill reads that file when present.
@@ -45,7 +46,7 @@ Optional: create `~/.claude/skills/hku-consent-form/local/pi-defaults.md` with y
 ## Usage
 
 ```
-/hku-consent-form <proposal path or folder> [adult|teacher|principal|parent|student] [en|zh-hant|zh-hans|all]
+/hku-consent-form <proposal path or folder> [adult|teacher|principal|parent|student] [en|zh-hant|zh-hans|all] [--no-application]
 ```
 
 The forms are drafts. Check them against your own application before submission; the HREC is the authority on wording.
