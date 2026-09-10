@@ -1,19 +1,24 @@
 ---
 name: hku-consent-form
-description: 依研究提案（proposal / HREC 申請表）產生香港大學 HREC 格式的知情同意書：成人／教師、校長、家長／監護人、學生 assent，英文＋中文（繁或簡）。Use when user says "做 consent form"、"同意書"、"informed consent"、"/hku-consent-form"、drops a proposal and asks for consent forms, or asks to check consent forms against a proposal.
+description: 依研究提案產生香港大學 HREC 知情同意書（成人／教師、校長、家長／監護人、學生 assent，英文＋中文繁或簡）以及 HREC 申請表 Part A–E 草稿（個人資料留空）。Use when user says "做 consent form"、"同意書"、"informed consent"、"ethical approval"、"HREC 申請表"、"/hku-consent-form"、drops a proposal and asks for ethics documents, or asks to check consent forms against a proposal.
 ---
 
 # hku-consent-form
 
-從研究提案抽取欄位，套用 HKU Human Research Ethics Committee（HREC）慣用語，產出各對象版本的知情同意書（.docx）。語句庫來自 HKU 教育學院官方樣板與多份已獲批的申請，不是自創。
+從研究提案抽取欄位，套用 HKU Human Research Ethics Committee（HREC）慣用語，產出兩種東西：
+
+1. 各對象版本的知情同意書（.docx）。
+2. HREC 申請表（Application Form for Ethics Approval）Part A–E 的內容草稿（.md），個人資料留空。
+
+語句庫來自 HKU 教育學院官方樣板與多份已獲批的申請，不是自創。
 
 ## 使用方式
 
 ```
-/hku-consent-form <proposal 路徑或資料夾> [對象: adult|teacher|principal|parent|student] [語言: en|zh-hant|zh-hans|all]
+/hku-consent-form <proposal 路徑或資料夾> [對象: adult|teacher|principal|parent|student] [語言: en|zh-hant|zh-hans|all] [--no-application]
 ```
 
-不給對象與語言時，依 proposal 自行判斷（見 Step 2），再在回覆裡說明判斷依據。
+預設同意書與申請表草稿都做；只要同意書加 `--no-application`，只要申請表說「只做申請表」。不給對象與語言時，依 proposal 自行判斷（見 Step 2），再在回覆裡說明判斷依據。
 
 ## 流程
 
@@ -54,6 +59,16 @@ description: 依研究提案（proposal / HREC 申請表）產生香港大學 HR
 - 轉檔：`pandoc consent-x.md -o consent-x.docx`；有 `assets/reference.docx` 時加 `--reference-doc`。
 - 輸出到 proposal 所在資料夾，除非使用者指定。不覆蓋既有檔案：同名時加 `-v2`。
 
+### Step 4b　寫申請表草稿
+
+依 `reference/application-form.md` 逐題填，輸出 `hrec-application-draft.md`。規則：
+
+- 保留題號與原題目，答案寫在題目下一行；勾選題寫 `Yes` 或 `No` 並附一句理由。
+- PI、Co-I、經費、簽名全部留 `[ ]`。
+- 第 7 題只寫涉及人的方法，四小段，半頁以內。
+- 第 8、10、11、12 題的答案要跟同意書逐字對得上；先寫同意書再填申請表，避免兩邊各寫一套。
+- 已有申請表（使用者給了舊版）時，不重寫，改成列出「舊版與 proposal／同意書不一致處」。
+
 ### Step 5　對照檢查
 
 跑 `reference/checklist.md` 全部項目，在回覆裡列出未通過項。最常見的三類問題：
@@ -64,13 +79,14 @@ description: 依研究提案（proposal / HREC 申請表）產生香港大學 HR
 
 ### Step 6　回覆
 
-列出：產出的檔案、抽取欄位摘要（含哪些是預設、哪些待填）、檢查清單未通過項。不重述同意書內容。
+列出：產出的檔案、抽取欄位摘要（含哪些是預設、哪些待填）、申請表哪些題留空要使用者填、Part D 附件清單、檢查清單未通過項。不重述同意書內容。
 
 ## 檔案
 
 - `reference/fields.md`：抽取欄位表與預設值
 - `reference/language-en.md`：英文語句庫，依對象分段
 - `reference/language-zh.md`：中文語句庫，繁簡並列
+- `reference/application-form.md`：HREC 申請表逐題填法、預設答案、勾選觸發條件
 - `reference/checklist.md`：送審前一致性檢查
 - `local/`：使用者私有資料（PI 聯絡方式），已列入 .gitignore
 
