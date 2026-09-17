@@ -55,7 +55,7 @@
 
 | 變數 | 預設 |
 |---|---|
-| `{{storage}}` | 電子：encrypted, password-protected device or HKU cloud storage；紙本：locked cabinet in the researcher's office |
+| `{{storage}}` | 先照 proposal／申請表；沒有明寫時，電子資料用 encrypted, password-protected device under the control of the PI or research team，紙本用 locked cabinet in the researcher's office。來源文件未授權時，不自行加入 HKU cloud storage |
 | `{{access}}` | research team only |
 | `{{anonymisation}}` | pseudonyms；移除姓名、學校名、可辨識描述 |
 | `{{retention_identifiable}}` | 首篇論文發表後 3 年（上限 5 年）；須與申請表 Q12(a) 相同 |

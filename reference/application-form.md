@@ -62,7 +62,7 @@
 | (f) Physical risk | No | |
 | (g) Photography | No | 拍攝學生作品或現場照片才 Yes |
 | (h) Video-recording | No | 觀課錄影才 Yes；Yes 就要有「鏡頭外或模糊」句 |
-| (i) Audio-recording | 依 proposal | 訪談幾乎都 Yes。說明句：`Interviews will be audio-recorded and transcribed for analysis. Recordings will be stored on [encrypted, password-protected devices or HKU cloud storage] accessible only to the research team, and destroyed [N] years after publication of the first paper.` |
+| (i) Audio-recording | 依 proposal | 訪談幾乎都 Yes。說明句：`Interviews will be audio-recorded and transcribed for analysis. Recordings will be stored on {{storage}}, accessible only to the research team, and destroyed [N] years after publication of the first paper.` `{{storage}}` 必須照 proposal／申請表並與同意書逐字一致；來源文件未授權時，不自行加入 HKU cloud storage。 |
 | (j) Vulnerable participants | No | 18 歲以下或無法自行同意者 → Yes，附家長同意書 |
 | (k) Conflict of interest | No | 研究者是受試者的老師、主管、導師；或有酬勞 → Yes，寫緩解措施（不影響成績、由第三人招募） |
 | (l) Matching personal data from different sources | No | 前後測、問卷配訪談、平台紀錄配問卷 → Yes，寫用什麼代碼配對 |

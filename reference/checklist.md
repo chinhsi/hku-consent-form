@@ -29,7 +29,7 @@
 | B3 | HREC 電話 3917-5267，不是 2241-5267 |
 | B4 | 英文版與中文版段落一一對應，中文版沒有比英文版少段（尤其風險、補償、退出、被識別選項） |
 | B5 | 中文字體與受試者所在地一致（內地簡體、香港繁體）；訪談提綱與同意書同一字體 |
-| B6 | 「I wish / do not wish to be identified」只在個人訪談版出現 |
+| B6 | 「I wish / do not wish to be identified」只在個人訪談且 proposal 明確容許參與者選擇具名時出現；若正文承諾匿名／整合報告則不得出現 |
 | B7 | 錄音同意句只在有錄音的版本出現 |
 | B8 | 風險段不是 Not applicable，至少寫 minimal risk |
 | B9 | 家長版全篇用 your child／貴子弟，沒有混入「you will be interviewed」 |
@@ -37,6 +37,7 @@
 | B11 | 校長版回條有 School's Name / Principal's Name / Signature / Date |
 | B12 | 聯絡電話：香港境內研究用辦公室電話；海外研究可只給 email；同一份文件不出現兩個不同號碼 |
 | B13 | 沒有表情符號、沒有文獻引用、沒有研究假設 |
+| B14 | 最終 Word 沒有可見 Markdown `**`；Reply Slip 只列實質決定，不把已閱讀、提問機會、自願參與等正文聲明拆成重複 checkbox |
 
 ## C. 交付
 

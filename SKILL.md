@@ -55,7 +55,7 @@ description: 依研究提案產生香港大學 HREC 知情同意書（成人／�
 - 每個版本一個 `.md`，檔名慣例：`consent-<audience>-<lang>.md`，例如 `consent-teacher-en.md`、`consent-parent-zh-hant.md`。
 - 不要自由發揮措辭。逐段從語句庫複製，只替換 `{{變數}}`。需要增寫的（procedures 細節、benefits）用 proposal 的原話改寫成第二人稱、白話。
 - 章節標題在英文版全大寫（HKU 樣板慣例）；中文版用「研究目的／程序／潛在風險…」。
-- 簽名區與回條放在水平線 `---` 之後。勾選框用 `◻`，刪去不適用者用 `**同意 / 不同意`＋`(** 請删去不適用者)`。
+- 簽名區與回條放在水平線 `---` 之後。依使用者提供的樣本或明確指示決定回條形式：需要參與者逐項作二選一時，每個實質決定各用一行 `◻ I agree　◻ I do not agree`，姓名、簽名、日期另列；不要把「已閱讀／有機會提問／明白自願」等正文聲明拆成多個 checkbox。只有參考樣本採刪除方式時，才用 `同意 / 不同意（請刪去不適用者）`。不得把 Markdown `**` 當作腳註符號寫入 Word；需要粗體時必須使用真正的 Word 粗體格式。
 - 轉檔：`pandoc consent-x.md -o consent-x.docx`；有 `assets/reference.docx` 時加 `--reference-doc`。
 - 輸出到 proposal 所在資料夾，除非使用者指定。不覆蓋既有檔案：同名時加 `-v2`。
 

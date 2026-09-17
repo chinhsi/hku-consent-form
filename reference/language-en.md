@@ -57,11 +57,9 @@ SIGNATURE
 
 I _________________________________ (Name of Participant) understand the procedures described above and agree to participate in this study.
 
-[I ** agree / do not agree to the audio-recording during the procedure.]
+[I agree / do not agree to the audio-recording during the procedure. (Please delete as appropriate.)]
 
-[I ** wish / do not wish to be identified.]　　(only when the procedure involves a personal interview)
-
-(** Please delete as appropriate.)
+[I wish / do not wish to be identified. (Please delete as appropriate.)]　　(only when the procedure involves a personal interview)
 
 Signature of Participant: ______________________　　Date: ______________
 
@@ -74,6 +72,19 @@ Variants:
 
 - **Online interview, e-consent**: replace the signature block with `Please reply to this email with "I agree" / type your full name below to indicate consent.` and keep the two agree/do-not-agree lines as questions.
 - **Two-tier study (core + optional interview)**: split into Consent Form A and B, each with its own PROCEDURES and SIGNATURE. Title them `Consent Form A: {{scope}}`.
+- **Binary checkbox reply slip**: use when the participant must actively answer each substantive yes/no decision. Keep identity and signature fields separate from the choices; do not add a checklist that repeats the information sheet.
+
+  ```
+  Participant name: ______________________________
+  Participant signature: __________________________
+  Date: _________________________________________
+
+  Participation in this study:  ◻ I agree    ◻ I do not agree
+  [Audio recording during the interview:  ◻ I agree    ◻ I do not agree]
+  [Identification by name:  ◻ I agree    ◻ I do not agree]
+  ```
+
+  Include the identification choice only when the proposal allows participants to choose whether they are identified. Omit it when the information sheet promises anonymised or aggregated reporting.
 
 ---
 
@@ -228,11 +239,9 @@ Reply Slip
 
 Student Name: ______________________　Class: ________　Class No.: ______
 
-I ** will / will not give permission for my child to participate in the research.
+I will / will not give permission for my child to participate in the research. (Please delete as appropriate.)
 
-[I ** agree / do not agree to the audio-recording of my child during the interview.]
-
-(** Please delete as appropriate.)
+[I agree / do not agree to the audio-recording of my child during the interview. (Please delete as appropriate.)]
 
 Parent/Guardian Name: ______________________
 
@@ -288,9 +297,9 @@ If you agree to take part in this project, please put a tick in the following bo
 
 ◻ I agree to participate in this project.
 
-[I ** agree / do not agree to the recording during the interview.]
+[I agree / do not agree to the recording during the interview. (Please delete as appropriate.)]
 
-[I ** wish / do not wish to be identified. (if the procedure involves a personal interview)]
+[I wish / do not wish to be identified. (Please delete as appropriate; only if the procedure involves a personal interview.)]
 
 Signature: __________________
 
