@@ -26,7 +26,7 @@
 |---|---|
 | B1 | 沒有 `[Date]`、`XX`、`{{`、`(title of your study)` 等佔位符殘留；HREC Reference Number 那句樣板保留 |
 | B2 | Date of Preparation 已填 |
-| B3 | HREC 電話 3917-5267，不是 2241-5267 |
+| B3 | HREC 聯絡資料同時列出電話 3917-5267 及電郵 hrec@hku.hk；電話不是舊號碼 2241-5267 |
 | B4 | 英文版與中文版段落一一對應，中文版沒有比英文版少段（尤其風險、補償、退出、被識別選項） |
 | B5 | 中文字體與受試者所在地一致（內地簡體、香港繁體）；訪談提綱與同意書同一字體 |
 | B6 | 「I wish / do not wish to be identified」只在個人訪談且 proposal 明確容許參與者選擇具名時出現；若正文承諾匿名／整合報告則不得出現 |

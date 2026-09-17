@@ -51,7 +51,7 @@ Your participation is voluntary. This means that you can choose to stop at any t
 
 QUESTIONS AND CONCERNS
 
-If you have any questions about the research, please feel free to contact {{pi_title}} {{pi_name}} (telephone: {{pi_phone}} / email: {{pi_email}}). If you have questions about your rights as a research participant, contact the Human Research Ethics Committee, HKU (3917-5267).
+If you have any questions about the research, please feel free to contact {{pi_title}} {{pi_name}} (telephone: {{pi_phone}} / email: {{pi_email}}). If you have questions about your rights as a research participant, contact the Human Research Ethics Committee, HKU (telephone: 3917-5267; email: hrec@hku.hk).
 
 SIGNATURE
 
@@ -103,7 +103,7 @@ If you agree to participate in this project, [for intervention] you will try out
 
 Your participation in this project is entirely voluntary and you can withdraw at any time during the project without any negative consequences. The data collected will be treated with utmost confidentiality and anonymity. You will not be identified in the project report. [for video-recordings] Video recording is a group recording. If any students do not agree to be video-recorded, they will sit outside the camera view or have their face blurred. [for recordings] You [and your students] will have the right to review the recordings and erase part of or the entire recording if you wish. All the data collected will be securely stored in {{storage}}. Data containing personal identifiers will be destroyed {{retention_identifiable}} after the publication of the first paper from the project.
 
-Please complete the reply slip below to indicate whether you would participate in the study. If you have any questions about the research, please do not hesitate to contact me (phone: {{researcher_phone}}; email: {{researcher_email}}) or my research project supervisor, {{supervisor_name}} ({{supervisor_email}}). If you would like to know more about the rights as a research participant, please contact the Human Research Ethics Committee, the University of Hong Kong (3917-5267).
+Please complete the reply slip below to indicate whether you would participate in the study. If you have any questions about the research, please do not hesitate to contact me (phone: {{researcher_phone}}; email: {{researcher_email}}) or my research project supervisor, {{supervisor_name}} ({{supervisor_email}}). If you would like to know more about the rights as a research participant, please contact the Human Research Ethics Committee, the University of Hong Kong (telephone: 3917-5267; email: hrec@hku.hk).
 
 Your help is very much appreciated.
 
@@ -155,7 +155,7 @@ All the information that is obtained during this research project will be kept s
 
 Participation is entirely voluntary. Teachers, parents and students can withdraw at any time without any negative consequences, and declining to participate will not affect students' grades or school assessment in any way. Written parental/guardian consent and age-appropriate student assent will be obtained before any data are collected. All information obtained will be used for research purposes only. A copy of the research results after this project is completed will be given to you upon your request.
 
-Please complete the reply slip below to indicate whether your school would participate in this research. If you have any questions about the research, please feel free to contact {{pi_title}} {{pi_name}} at {{pi_phone}} or via {{pi_email}}. If you want to know more about the rights of your school or those of your students as research participants, please contact the Human Research Ethics Committee, the University of Hong Kong (3917-5267).
+Please complete the reply slip below to indicate whether your school would participate in this research. If you have any questions about the research, please feel free to contact {{pi_title}} {{pi_name}} at {{pi_phone}} or via {{pi_email}}. If you want to know more about the rights of your school or those of your students as research participants, please contact the Human Research Ethics Committee, the University of Hong Kong (telephone: 3917-5267; email: hrec@hku.hk).
 
 Your help is very much appreciated.
 
@@ -223,7 +223,7 @@ Your child's participation is totally voluntary. This means that your child can 
 
 QUESTIONS AND CONCERNS
 
-If you have any questions or concerns about the research, please feel free to contact {{pi_title}} {{pi_name}} at {{pi_phone}} or {{pi_email}}. If you have questions about your rights as the guardian of a research participant and the rights of your child as a research participant, contact the Human Research Ethics Committee, HKU (3917-5267).
+If you have any questions or concerns about the research, please feel free to contact {{pi_title}} {{pi_name}} at {{pi_phone}} or {{pi_email}}. If you have questions about your rights as the guardian of a research participant and the rights of your child as a research participant, contact the Human Research Ethics Committee, HKU (telephone: 3917-5267; email: hrec@hku.hk).
 
 Your help is very much appreciated.
 
@@ -281,7 +281,7 @@ Your participation is voluntary, and you can choose to stop at any time without 
 
 All information obtained will be kept strictly confidential and used for research purposes only. Your name will not appear in any report. All data will be stored on {{storage}} and destroyed {{retention_identifiable}} after the publication of the first paper from the study.
 
-If you have any questions about the research, please feel free to contact {{pi_title}} {{pi_name}} ({{pi_phone}} / {{pi_email}}). If you have questions about your rights as a research participant, contact the Human Research Ethics Committee, HKU (3917-5267). If you have any further question, please raise it now. Thank you for your support.
+If you have any questions about the research, please feel free to contact {{pi_title}} {{pi_name}} ({{pi_phone}} / {{pi_email}}). If you have questions about your rights as a research participant, contact the Human Research Ethics Committee, HKU (telephone: 3917-5267; email: hrec@hku.hk). If you have any further question, please raise it now. Thank you for your support.
 
 Yours sincerely,
 
@@ -358,4 +358,4 @@ Email variant: paste the §A text into the email body and end with `Please reply
 - Results copy: `A copy of the research results after this project is completed will be given to you upon your request.`
 - No performance assessment: `The study will not assess your teaching performance; it focuses only on your experiences.`
 - Not extra workload: `None of the tasks are extra workload; they are part of the regular curriculum.`
-- HREC: `If you have questions about your rights as a research participant, contact the Human Research Ethics Committee, HKU (3917-5267).`
+- HREC: `If you have questions about your rights as a research participant, contact the Human Research Ethics Committee, HKU (telephone: 3917-5267; email: hrec@hku.hk).`
